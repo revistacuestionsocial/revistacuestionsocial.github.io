@@ -15,6 +15,10 @@ body {
     margin: auto;
     overflow: hidden;
 }
+.contenedorFooter {
+    display: flex;
+    justify-content: space-around;
+}
 
 .titulo {
     color: #642a73;
@@ -74,6 +78,29 @@ header .textos-header {
     font-size: 30px;
     font-weight: 300;
     color: #fff;
+}
+
+header .textos-footer {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-footer h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.textos-footer p {
+    font-size: 22;
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    color: #fff;
+    text-align: justify;
 }
 
 .wave {
